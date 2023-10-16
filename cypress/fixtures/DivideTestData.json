@@ -1,0 +1,52 @@
+[
+    {
+        "Test_case_name": "Divide positive Even integer by positive even integer",
+        "ValueOfA": 4,
+        "ValueofB": 2,
+        "expect_result": 2
+    },
+    {
+        "Test_case_name": "Divide positive Even integer by positive odd integer",
+        "ValueOfA": 4,
+        "ValueofB": 3,
+        "expect_result": 1.3333333333333333
+    },
+    {
+        "Test_case_name": "Divide negative Even integer by positive odd integer",
+        "ValueOfA": -4,
+        "ValueofB": 3,
+        "expect_result": -1.3333333333333333
+    },
+    {
+        "Test_case_name": "Divide positive Even integer by negative odd integer",
+        "ValueOfA": 4,
+        "ValueofB": -3,
+        "expect_result": -1.3333333333333333
+    },
+    {
+        "Test_case_name": "Divide by same value",
+        "ValueOfA": 4,
+        "ValueofB": 4,
+        "expect_result": 1
+    },
+    {
+        "Test_case_name": "Divide interger by Zero",
+        "ValueOfA": 4,
+        "ValueofB": 0,
+        "expect_result": "Infinity"
+    },
+    {
+        "Test_case_name": "Divide Zero by Integer",
+        "ValueOfA": 0,
+        "ValueofB": 4,
+        "expect_result": "0"
+    },
+    {
+        "Test_case_name": "Divide Zero by Zero",
+        "ValueOfA": 0,
+        "ValueofB": 0,
+        "expect_result": "NaN"
+    }
+
+    
+]

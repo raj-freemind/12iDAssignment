@@ -1,0 +1,56 @@
+[
+    {
+        "Test_case_name": "add two positive integers",
+        "ValueOfA": 20,
+        "ValueofB": 30,
+        "expect_result": 50
+    },
+    {
+        "Test_case_name": "Invalid Input",
+        "ValueOfA": "x",
+        "ValueofB": "b",
+        "expect_result": "0"
+    },
+    {
+        "Test_case_name": "Large Input",
+        "ValueOfA": "1000000000000000000000",
+        "ValueofB": "1000000000000000000000",
+        "expect_result": "2e+21"
+    },
+    {
+        "Test_case_name": "add two negative integers",
+        "ValueOfA": -2,
+        "ValueofB": -3,
+        "expect_result": -5
+    },
+    {
+        "Test_case_name": "add big positive integer and one negative interger",
+        "ValueOfA": 40,
+        "ValueofB": -3,
+        "expect_result": 37
+    },
+    {
+        "Test_case_name": "add one positive and one negative",
+        "ValueOfA": 4,
+        "ValueofB": -5,
+        "expect_result": -1
+    },
+    {
+        "Test_case_name": "add one positive and one negative",
+        "ValueOfA": 4,
+        "ValueofB": -5,
+        "expect_result": -1
+    },
+    {
+        "Test_case_name": "Same value but opposite sign",
+        "ValueOfA": 4,
+        "ValueofB": -4,
+        "expect_result": 0
+    },
+    {
+        "Test_case_name": "Adding positive float point numbers",
+        "ValueOfA": 4.3,
+        "ValueofB": 2.3,
+        "expect_result": 6.6
+    }
+]
