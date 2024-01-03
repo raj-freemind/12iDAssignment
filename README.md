@@ -1,6 +1,6 @@
-### QA Assignment
 
-Hello and congratulations on reaching this stage! Here, we have a small challenge for you (if you enjoy being challenged). The objective of this assignment is to:
+
+Here is a small challenge for you (if you enjoy being challenged). The objective of this assignment is to:
 
 1. Develop unit tests with Jest.
 2. Develop e2e tests with Cypress.
